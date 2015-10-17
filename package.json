@@ -1,0 +1,46 @@
+{
+  "name": "sorted-joyo-kanji",
+  "description": "Sorted array of the Joyo Kanji",
+  "version": "0.1.0",
+  "author": "Kenichiro Murata <kenichiro.murata@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/muraken720/sorted-joyo-kanji/issues"
+  },
+  "dependencies": {
+    "amp-each": "^1.0.1",
+    "code-point": "^1.0.1",
+    "joyo-kanji": "^0.2.1",
+    "sorted-array": "^2.0.1"
+  },
+  "devDependencies": {
+    "espower-babel": "^3.3.0",
+    "mocha": "^2.3.3",
+    "power-assert": "^1.1.0",
+    "standard": "^5.3.1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/muraken720/sorted-joyo-kanji#readme",
+  "keywords": [
+    "japanese",
+    "joyo",
+    "kanji"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muraken720/sorted-joyo-kanji.git"
+  },
+  "scripts": {
+    "standard": "standard",
+    "test": "mocha --compilers js:espower-babel/guess test/**/*.js"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  }
+}
