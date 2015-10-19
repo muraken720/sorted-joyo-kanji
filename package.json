@@ -1,7 +1,7 @@
 {
   "name": "sorted-joyo-kanji",
   "description": "Sorted array of the Joyo Kanji",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Kenichiro Murata <kenichiro.murata@gmail.com>",
   "bugs": {
     "url": "https://github.com/muraken720/sorted-joyo-kanji/issues"
