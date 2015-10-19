@@ -2,7 +2,7 @@
 
 var assert = require('power-assert')
 
-var joyoKanji = require('../')
+var joyoKanji = require('../src')
 
 var each = require('amp-each')
 var codePoint = require('code-point')
